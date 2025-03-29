@@ -14,7 +14,7 @@
 
 🔗  https://github.com/Shashank-1202/Terraform-with-docker
 
-  ![alt text](image-2.png)
+ ![alt text](image-1.png) 
   
 project file consists with main.tf, provider.tf, resource.tf, terraform.tfstate and terraform.tfstate.backup.
 
@@ -87,6 +87,7 @@ you will get the following prompt in the terminal
   ```
 
   #### check the file in the s3 bucket (through GUI)
+  
   ![alt text](image.png)
 
 
