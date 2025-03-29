@@ -86,7 +86,7 @@ you will get the following prompt in the terminal
   ```
 
   #### check the file in the s3 bucket (through GUI)
-  ![alt text](image-1.png)
+  ![alt text](image.png)
 
 
   After creating a s3 bucket, we can enable the bucket versioning through aws cli (**if you required**)
