@@ -50,21 +50,21 @@ Terraform Module project
 This module is used to create EC2 instances.
 
 
-*Input variables*:
+**Input variables**:
 
-**instance_type**: The instance type to create (e.g., t2.micro).
+*instance_type*: The instance type to create (e.g., t2.micro).
 
-**ami_id**: The AMI ID to use for the EC2 instance.
+*ami_id*: The AMI ID to use for the EC2 instance.
 
-**key_name**: The name of the SSH key for accessing the instance.
+*key_name*: The name of the SSH key for accessing the instance.
 
 
 
-*Outputs*:
+**Outputs**:
 
-**instance_id**: The ID of the created EC2 instance.
+*instance_id*: The ID of the created EC2 instance.
 
-**public_ip**: The public IP address of the EC2 instance.
+*public_ip*: The public IP address of the EC2 instance.
 
 
 
@@ -73,34 +73,34 @@ This module is used to create EC2 instances.
 
 This module is used to create subnets in your VPC.
 
-*Input variables*:
+**Input variables**:
 
-**vpc_id**: The ID of the VPC where the subnet will be created.
+*vpc_id*: The ID of the VPC where the subnet will be created.
 
-**cidr_block**: The CIDR block for the subnet.
-
-
-
-*Outputs*:
-
-**subnet_id**: The ID of the created subnet.
-
-**subnet_cidr_block**: The CIDR block of the created subnet.
+*cidr_block*: The CIDR block for the subnet.
 
 
 
-*VPC Module*
+**Outputs**:
+
+*subnet_id*: The ID of the created subnet.
+
+*subnet_cidr_block*: The CIDR block of the created subnet.
+
+
+
+**VPC Module**
 
 This module is used to create a VPC.
 
 
-*Input variables*:
+**Input variables**:
 
-**cidr_block**: The CIDR block for the VPC.
+*cidr_block*: The CIDR block for the VPC.
 
 
-*Outputs*:
+**Outputs**:
 
-**vpc_id**: The ID of the created VPC.
+*vpc_id*: The ID of the created VPC.
 
-**cidr_block**: The CIDR block of the created VPC.
+*cidr_block*: The CIDR block of the created VPC.
