@@ -42,9 +42,11 @@ Terraform Module project
 
 ### Module Details
 
+
 **EC2 Module**
 
 This module is used to create EC2 instances.
+
 
 *Input variables*:
 
@@ -54,13 +56,18 @@ This module is used to create EC2 instances.
 
 **key_name**: The name of the SSH key for accessing the instance.
 
+
+
 *Outputs*:
 
 **instance_id**: The ID of the created EC2 instance.
 
 **public_ip**: The public IP address of the EC2 instance.
 
+
+
 **Subnet Module**
+
 
 This module is used to create subnets in your VPC.
 
@@ -70,19 +77,25 @@ This module is used to create subnets in your VPC.
 
 **cidr_block**: The CIDR block for the subnet.
 
+
+
 *Outputs*:
 
 **subnet_id**: The ID of the created subnet.
 
 **subnet_cidr_block**: The CIDR block of the created subnet.
 
+
+
 *VPC Module*
 
 This module is used to create a VPC.
 
+
 *Input variables*:
 
 **cidr_block**: The CIDR block for the VPC.
+
 
 *Outputs*:
 
