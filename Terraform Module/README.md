@@ -40,6 +40,8 @@ Terraform Module project
 
 **variable.tf**: Defines the input variables used throughout the configuration.
 
+
+
 ### Module Details
 
 
@@ -66,7 +68,7 @@ This module is used to create EC2 instances.
 
 
 
-**Subnet Module**
+#Subnet Module
 
 
 This module is used to create subnets in your VPC.
