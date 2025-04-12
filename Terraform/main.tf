@@ -79,9 +79,9 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
   ip_protocol       = "-1" # semantically equivalent to all ports
 }
 
-resource "aws_key_pair" "deployer" {
-  key_name   = "deployer-key"
-  public_key = "key"
+resource "aws_key_pair" "keypair" {
+  key_name   = "keypair"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIEYyV2IIj50St5hdeA1YPcxQsUxqo6ssoIh+pU/1Mi4+/Hd6YvJHon3atotoSVGBrmhZdGzpLhAHNGZz/QDIhvSZAN5j6uTP6PifnxdwIReNxMEhn0ViFUEV869KL6ZP4HEPModl5/3LiNwAmYoRU00TRb77ZlpMm7iFC7AixRWIobFy5yfbh4p9bDhpOBtVgxWF5uhh5PDE4wrVC2r6rVvqDhXynJUVua2JYX7CTiUeOq2yCjNwSWFi9cg2ioG3ZbFx01Bf/ld028X10r0+5xHM22GxLH+zEkysD1y84/sHW70q1mqFFjIxmaIW2iI5Iy7KywXg9eJq9LiTlF7tp kubernetes"
 }
 
 resource "aws_instance" "ec2" {
